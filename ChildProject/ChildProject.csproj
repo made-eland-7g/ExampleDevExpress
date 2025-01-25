@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net9.0-windows10.0.19041</TargetFramework>
+	<SupportedOSPlatformVersion>10.0.19041</SupportedOSPlatformVersion>
+	<UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Mvvm" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Carousel" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Gauges" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Grid" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Themes.VS2017Dark" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Themes.VS2017Light" Version="24.1.7" />
+  </ItemGroup>
+	
+</Project>

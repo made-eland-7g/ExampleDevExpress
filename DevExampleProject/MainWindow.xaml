@@ -1,0 +1,22 @@
+﻿<Window x:Class="DevExampleProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DevExampleProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <Button x:Name="LoadDllButton" Content="Load DLL" Click="LoadDllButton_Click" Margin="5,0"/>
+        </StackPanel>
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Margin="5">
+            <Grid x:Name="DllContainer">
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
